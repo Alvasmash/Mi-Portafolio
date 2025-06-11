@@ -1,42 +1,65 @@
-/* Corrección: Añadido prefijos para compatibilidad con navegadores */
-@-webkit-keyframes fadeInUp {
-    from { opacity: 0; -webkit-transform: translateY(30px); }
-    to { opacity: 1; -webkit-transform: translateY(0); }
-}
-@keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(30px); }
-    to { opacity: 1; transform: translateY(0); }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Corrección: Mejor contraste para accesibilidad */
-.hero h1 {
-    color: #fff;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  line-height: 1.6;
+  padding: 20px;
 }
 
-/* Corrección: Optimización para móviles */
-@media (max-width: 480px) {
-    .hero h1 {
-        font-size: 2.2rem;
-        margin-top: 20px;
-    }
-    
-    .profile-img {
-        width: 150px;
-        height: 150px;
-    }
+header {
+  text-align: center;
+  background-color: rgba(0, 128, 0, 0.6);
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
 }
 
-/* Corrección: Mejor rendimiento para animaciones */
-.fade-in {
-    opacity: 0;
-    transition: opacity 0.6s ease, transform 0.6s ease;
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
-/* Nuevo: Estilos para el favicon dinámico */
-.navbar {
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  object-fit: cover;
 }
 
-/* Resto del CSS se mantiene igual */
-/* ... */
+.cta {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #388E3C;
+}
+
+section {
+  background-color: rgba(0, 100, 0, 0.7);
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #ccc;
+}
