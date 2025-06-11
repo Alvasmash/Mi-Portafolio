@@ -1,79 +1,193 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portafolio de Alvasmash</title>
-  <link rel="stylesheet" href="estilos.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álvaro Pérez - Portafolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>Alvasmash</h1>
-      <p>Desarrollador Web | Apasionado por la tecnología | Soñador con código</p>
-    </div>
-  </header>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
 
-  <section class="hero">
-    <div class="container">
-      <h2>¡Hola! Soy Alvasmash 👋</h2>
-      <p>
-        Bienvenido a mi portafolio personal. Aquí encontrarás un resumen de mis habilidades, proyectos,
-        intereses y formas de contacto. Me encanta aprender cosas nuevas y crear soluciones que impacten
-        positivamente a las personas.
-      </p>
-    </div>
-  </section>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <!-- Reemplaza src con tu foto de Choso o cualquier avatar -->
+            <img src="https://via.placeholder.com/200x200/4CAF50/FFFFFF?text=FOTO" alt="Álvaro Pérez" class="profile-img">
+            <h1>Álvaro Pérez</h1>
+            <p>Estudiante de Programación | Desarrollador en Formación | 19 años</p>
+            <a href="#contact" class="cta-button">
+                <i class="fas fa-envelope"></i> Contáctame
+            </a>
+        </div>
+    </section>
 
-  <section class="seccion" id="habilidades">
-    <div class="container">
-      <h2>🛠️ Habilidades</h2>
-      <ul>
-        <li>HTML5, CSS3, JavaScript</li>
-        <li>Diseño web responsive</li>
-        <li>Git y GitHub</li>
-        <li>Trabajo en equipo y comunicación</li>
-        <li>Aprendizaje autónomo</li>
-      </ul>
-    </div>
-  </section>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title fade-in">Sobre Mí</h2>
+        <div class="about-content">
+            <div class="about-text fade-in">
+                <h3>Mi Historia Personal</h3>
+                <p>¡Hola! Soy Álvaro Pérez, tengo 19 años y soy un apasionado estudiante de programación en DuocUC San Joaquín. Mi amor por la tecnología comenzó desde muy joven, y ahora estoy enfocado en convertirme en un desarrollador profesional.</p>
+                
+                <p>Me encanta la naturaleza chilena, los desafíos tecnológicos y aprender constantemente nuevas habilidades. Cada día es una oportunidad para crecer y mejorar en este fascinante mundo de la programación.</p>
+                
+                <p>Estoy empezando mi camino en el desarrollo de software, pero tengo una gran determinación y pasión por crear soluciones innovadoras que puedan hacer la diferencia en nuestro país.</p>
+            </div>
+            
+            <div class="info-grid fade-in">
+                <div class="info-card">
+                    <i class="fas fa-user"></i>
+                    <h4>Información Personal</h4>
+                    <p><strong>Edad:</strong> 19 años</p>
+                    <p><strong>RUT:</strong> 21.939.012-2</p>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h4>Educación</h4>
+                    <p><strong>Institución:</strong> DuocUC San Joaquín</p>
+                    <p><strong>Estado:</strong> Estudiante</p>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-heart"></i>
+                    <h4>Mis Gustos</h4>
+                    <p>Programación, Paisajes de Chile, Tecnología, Aprendizaje continuo</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section class="seccion" id="proyectos">
-    <div class="container">
-      <h2>📁 Proyectos</h2>
-      <p>Aquí te presento algunos proyectos personales y ejercicios que he desarrollado:</p>
-      <ul>
-        <li><strong>Portafolio personal</strong>: el sitio que estás viendo ahora.</li>
-        <li><strong>Calculadora en JavaScript</strong>: aplicación web que permite realizar operaciones básicas.</li>
-        <li><strong>Clon de Google</strong>: recreación estética de la página de inicio de Google.</li>
-      </ul>
-    </div>
-  </section>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title fade-in">Mis Habilidades</h2>
+        <div class="skills-grid">
+            <div class="skill-card fade-in">
+                <i class="fas fa-code"></i>
+                <h3>Programación</h3>
+                <p>Estoy aprendiendo y desarrollando habilidades en diversos lenguajes de programación, enfocándome en crear código limpio y eficiente.</p>
+            </div>
+            
+            <div class="skill-card fade-in">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Desarrollo Web</h3>
+                <p>HTML, CSS y JavaScript son mis herramientas principales para crear experiencias web atractivas y funcionales.</p>
+            </div>
+            
+            <div class="skill-card fade-in">
+                <i class="fas fa-cogs"></i>
+                <h3>Lenguaje Técnico</h3>
+                <p>Comprendo y utilizo terminología técnica apropiada, facilitando la comunicación en proyectos de desarrollo.</p>
+            </div>
+            
+            <div class="skill-card fade-in">
+                <i class="fas fa-lightbulb"></i>
+                <h3>Resolución de Problemas</h3>
+                <p>Me encanta enfrentar desafíos lógicos y encontrar soluciones creativas a problemas complejos.</p>
+            </div>
+            
+            <div class="skill-card fade-in">
+                <i class="fas fa-git-alt"></i>
+                <h3>Control de Versiones</h3>
+                <p>Experiencia básica con Git para gestionar y versionar proyectos de desarrollo.</p>
+            </div>
+            
+            <div class="skill-card fade-in">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Aprendizaje Continuo</h3>
+                <p>Siempre dispuesto a aprender nuevas tecnologías y mejorar mis habilidades existentes.</p>
+            </div>
+        </div>
+    </section>
 
-  <section class="seccion" id="sobre-mi">
-    <div class="container">
-      <h2>🧑 Sobre mí</h2>
-      <p>
-        Soy estudiante de desarrollo web con gran interés en la programación y el diseño visual.
-        Me gusta trabajar en proyectos desafiantes, experimentar con nuevas tecnologías y
-        compartir lo que aprendo. Mi sueño es trabajar en una empresa de tecnología o crear
-        mi propio emprendimiento digital.
-      </p>
-    </div>
-  </section>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <h2 class="section-title fade-in">Mi Portafolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-card fade-in">
+                <div class="portfolio-img">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Empezando mi Camino</h3>
+                    <p>Este es mi primer portafolio profesional. Aunque estoy comenzando en el mundo del desarrollo, cada proyecto es una oportunidad de aprendizaje y crecimiento.</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-card fade-in">
+                <div class="portfolio-img">
+                    <i class="fas fa-code-branch"></i>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Proyectos Académicos</h3>
+                    <p>Desarrollo de proyectos universitarios que demuestran mi progreso y dedicación en el aprendizaje de programación y desarrollo de software.</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-card fade-in">
+                <div class="portfolio-img">
+                    <i class="fas fa-seedling"></i>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Crecimiento Continuo</h3>
+                    <p>Cada día trabajo en mejorar mis habilidades y conocimientos. Este portafolio crecerá junto conmigo a medida que avanzo en mi carrera.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section class="seccion" id="contacto">
-    <div class="container">
-      <h2>📬 Contacto</h2>
-      <p>¿Te gustaría colaborar conmigo o tienes alguna consulta? Escríbeme a:</p>
-      <p><a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
-    </div>
-  </section>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title" style="color: white;">Contacto</h2>
+        <div class="contact-content">
+            <p style="font-size: 1.2rem; margin-bottom: 30px;">¿Interesado en colaborar o conocer más sobre mi trabajo? ¡Contáctame!</p>
+            
+            <div class="contact-grid">
+                <div class="contact-item fade-in">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email</h4>
+                    <a href="mailto:alvarop5622@gmail.com">alvarop5622@gmail.com</a>
+                </div>
+                
+                <div class="contact-item fade-in">
+                    <i class="fab fa-instagram"></i>
+                    <h4>Instagram</h4>
+                    <a href="https://www.instagram.com/olap.654/" target="_blank">@olap.654</a>
+                </div>
+                
+                <div class="contact-item fade-in">
+                    <i class="fas fa-university"></i>
+                    <h4>Institución</h4>
+                    <p>DuocUC San Joaquín</p>
+                </div>
+                
+                <div class="contact-item fade-in">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Ubicación</h4>
+                    <p>Santiago, Chile</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Alvasmash. Todos los derechos reservados.</p>
-    </div>
-  </footer>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Álvaro Pérez. Todos los derechos reservados. | Desarrollado con pasión desde Chile</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
