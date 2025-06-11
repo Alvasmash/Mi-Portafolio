@@ -15,7 +15,7 @@ body {
 .hero {
     height: 100vh;
     background: linear-gradient(135deg, rgba(46, 125, 50, 0.9), rgba(102, 187, 106, 0.8)),
-                url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') center/cover;
+                url('https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,9 +47,14 @@ body {
     border-radius: 50%;
     border: 5px solid #fff;
     margin-bottom: 30px;
-    object-fit: cover;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     animation: float 6s ease-in-out infinite;
+    background: linear-gradient(135deg, #4CAF50, #66BB6A);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 4rem;
 }
 
 .hero h1 {
@@ -156,7 +161,7 @@ body {
 /* About Section */
 #about {
     background: linear-gradient(135deg, rgba(232, 245, 233, 0.8), rgba(200, 230, 201, 0.6)),
-                url('https://images.unsplash.com/photo-1615719413546-198b25453f85?ixlib=rb-4.0.3&auto=format&fit=crop&w=2128&q=80') center/cover;
+                url('https://images.unsplash.com/photo-1609198092458-38a293c7ac4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2064&q=80') center/cover;
     background-attachment: fixed;
 }
 
@@ -202,7 +207,7 @@ body {
 /* Skills Section */
 #skills {
     background: linear-gradient(135deg, rgba(129, 199, 132, 0.1), rgba(165, 214, 167, 0.1)),
-                url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') center/cover;
+                url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') center/cover;
     background-attachment: fixed;
 }
 
@@ -235,7 +240,7 @@ body {
 /* Portfolio Section */
 #portfolio {
     background: linear-gradient(135deg, rgba(232, 245, 233, 0.5), rgba(200, 230, 201, 0.3)),
-                url('https://images.unsplash.com/photo-1682686578842-00ba49b0a71a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') center/cover;
+                url('https://images.unsplash.com/photo-1464822759844-d150baec93d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') center/cover;
     background-attachment: fixed;
 }
 
@@ -275,7 +280,7 @@ body {
 /* Contact Section */
 #contact {
     background: linear-gradient(135deg, rgba(46, 125, 50, 0.9), rgba(102, 187, 106, 0.8)),
-                url('https://images.unsplash.com/photo-1609198092458-38a293c7ac4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2064&q=80') center/cover;
+                url('https://images.unsplash.com/photo-1578321272176-b7bbc0679853?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') center/cover;
     background-attachment: fixed;
     color: white;
 }
